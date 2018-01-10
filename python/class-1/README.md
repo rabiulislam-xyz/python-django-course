@@ -1,3 +1,5 @@
+[introducing_python](introducing_python.md)
+
 [introducing_djanog](introducing_djanog.md)
 
 [arithmetic operators](arithmetic_operators.py)
