@@ -49,3 +49,44 @@ TypeError: can't multiply sequence by non-int of type 'float'
 
 >>> # আচ্ছা আচ্ছা!! তার মানে হল, True টা আসলে 1 আর False টা হল গিয়ে 0
 >>> # জানতাম নাতো!
+
+
+
+>>> print("Hi, What's Your name?") #জাস্ট আ প্রিন্ট ফাংশন! 
+Hi, What's Your name?
+
+>>> name = input() # ইনপুট নিয়ে সেটা name ভেরিয়েবলে রাখবে
+Rabiul Islam       # আমি একটা স্ট্রিং ইনপুট দিলাম
+
+>>> print("Hi " + name )  # + অপারেটর দিয়ে স্ট্রিং যুক্ত করা যায়! মনে আছে তো? 
+Hi Rabiul Islam
+
+>>> print("give me a number please!") #জাস্ট আ প্রিন্ট... একটা নাম্বার দিতে বলে! 
+give me a number please!
+
+>>> number1 = input()  # ইনপুট নেয়ার জন্য অপেক্ষা করবে... 
+4                      # আমি 4 ইনপুট দিলাম  
+
+>>> print("another number please!")  # আরেকটা নাম্বার দেয়া লাগবে!!! কি হচ্ছে এসব !!! 
+another number please!
+
+>>> number2 = input()  # অকে
+5                      # দিলাম আরেকটা নাম্বার  
+
+>>> print("Your first number is: " + number1)  # যদিও আমি ইন্টেজার নাম্বার ইনপুট দিয়েছি, কিন্তু input() ফাংশন সেটাকে
+Your first number is: 4                        # স্ট্রিং হিসেবে রিটার্ন করেছে, তাই সেটাকে স্ট্রিং এর সাথে + অপারেটর দিয়ে 
+                                               # যুক্ত করা গিয়েছে! 
+
+
+>>> print("Your second number is: " + number2) 
+Your second number is: 5
+
+>>> sum = int(number1) + int(number2)  #দুটি ইন্টেজার যোগ করলাম, যেহেতু আমাদের দেয়া ইনপুটগুলো স্ট্রিং টাইপের ছিল তাই
+                                       #যোগ করার আগে সেগুলোকে ইন্টেজারে কাস্ট করে নিলাম, এবং যোগফল sum এ রাখলাম
+
+>>> print("sum of your numbers is: " + str(sum)) # sum ভ্যারিয়বলে যে যোগফলটা রাখা হয়েছে সেটা ইন্টেজার টাইপ, তাই
+sum of your numbers is: 9                        #স্ট্রিং টাইপের সাথে যুক্ত করতে সেটাকে স্ট্রিং এ কাস্ট করে নিতে হবে
+
+>>> print('thank you')  #এগেইন... জাস্ট আ প্রিন্ট... 
+thank you
+
