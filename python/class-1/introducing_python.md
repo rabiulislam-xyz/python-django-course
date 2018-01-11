@@ -10,7 +10,6 @@
 - ফ্রেন্ডলি কমিউনিটি
 - ক্লিন কোড, শেখা সহজ! 
 - ফাস্ট ডেভেলপমেন্ট প্রোসেস
-- 
 - জেনারেল পারপাজ
 - বিশাল প্যাকেজ লাইব্রেরি (স্ট্যান্ডার্ড প্যাকেজ লাইব্রেরিতে 126323+ টি প্যাকেজ) 
 
@@ -31,13 +30,6 @@
 - ডায়নামিক টাইপ
 - সাপোর্ট ফর ফাংশনাল প্রোগ্রামিং
 - হাইলি এক্সটেনসিবল
-
-### zen of python
-- Beautiful is better than ugly
-- Explicit is better than implicit
-- Simple is better than complex
-- Complex is better than complicated
-- Readability counts
 
 ### পাইথন ব্যবহার করে এমন কোম্পানি 
 - গুগল
