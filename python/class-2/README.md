@@ -6,20 +6,29 @@
 - multiple variable asignment
 
 ## extra
+- print function
+- type function
 - input function
 - type casting
 - logical oparetors
+- membership oparetors
+- identity oparetors
+- comments
 
 ## string
 - creating strings
 - escape charecters
-- string methods
-- functions on string
 - formating
+- value accessing
 - slicing
-- joining
-
-
-
+- joining/concatenation
+- string methods
+- dir function
+- help function
 
 ## list
+- creating list
+- updating
+- removing
+- list methods
+- list vs string / mutable vs immutable
