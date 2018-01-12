@@ -1,34 +1,34 @@
 ## variable
-- variable assignment
-- variable naming convention
-- reserved keywords
-- assignment oparetors
-- multiple variable asignment
+- [variable assignment](variable_assignment.py)
+- [variable naming convention](variable_naming_convention.py)
+- [reserved keywords](reserved_keywords.py)
+- [assignment oparetors](assignment_oparetors.py)
+- [multiple variable asignment](multiple_variable_asignment.py)
 
 ## extra
-- print function
-- type function
-- input function
-- type casting
-- logical oparetors
-- membership oparetors
-- identity oparetors
-- comments
+- [print function](print_function.py)
+- [type function](type_function.py)
+- [input function](input_function.py)
+- [type casting](type_casting.py)
+- [logical oparetors](logical_oparetors.py)
+- [membership oparetors](membership_oparetors.py)
+- [identity oparetors](identity_oparetors.py)
+- [comments](comments.py)
 
 ## string
-- creating strings
-- escape charecters
-- formating
-- value accessing
-- slicing
-- joining/concatenation
-- string methods
-- dir function
-- help function
+- [creating strings](creating_strings.py)
+- [escape charecters](escape_charecters.py)
+- [formatting](formatting.py)
+- [value accessing](value_accessing.py)
+- [slicing](slicing.py)
+- [joining/concatenation](joining.py)
+- [string methods](string_methods.py)
+- [dir function](dir_function.py)
+- [help function](help_function.py)
 
 ## list
-- creating list
-- updating
-- removing
-- list methods
-- list vs string / mutable vs immutable
+- [creating list](creating_list.py)
+- [updating](updating.py)
+- [removing](removing.py)
+- [list methods](list_methods.py)
+- [list vs string / mutable vs immutable](list_vs_string.py)
