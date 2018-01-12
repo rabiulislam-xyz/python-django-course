@@ -14,6 +14,7 @@
 - [membership oparetors](membership_oparetors.py)
 - [identity oparetors](identity_oparetors.py)
 - [comments](comments.py)
+- [module](module.py)
 
 ## string
 - [creating strings](creating_strings.py)
