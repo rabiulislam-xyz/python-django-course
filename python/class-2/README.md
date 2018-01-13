@@ -27,9 +27,3 @@
 - [dir function](dir_function.py)
 - [help function](help_function.py)
 
-## list
-- [creating list](creating_list.py)
-- [updating](updating.py)
-- [removing](removing.py)
-- [list methods](list_methods.py)
-- [list vs string / mutable vs immutable](list_vs_string.py)
