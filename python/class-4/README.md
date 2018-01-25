@@ -87,6 +87,7 @@ if today == "holiday":
       print("Watch TV")
 else:
    print("normal working day")
+print('good bye')
 ```
 
 ## loops
