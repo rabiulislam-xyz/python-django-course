@@ -92,25 +92,68 @@ else:
 ## loops
 - while loop
 ```python
-
+spam = 0
+while spam < 5:
+    print('Hello, world.')
+    spam = spam + 1
+```
+- while input
+```python
+name = ''                 
+while name != 'your name':
+    print('Please type your name.')
+    name = input()        
+print('Thank you!')       
 ```
 - break, continue
 ```python
+while True:                  
+    print('Please type your name.')
+    name = input()           
+    if name == 'your name':  
+        break                
+print('Thank you!')       
 
+
+while True:
+  print('Who are you?')
+  name = input()
+  if name != 'Joe':     
+    continue            
+  print('Hello, Joe. What is the password? (It is a fish.)') 
+  password = input()    
+  if password == 'swordfish':
+    break               
+print('Access granted.')
+
+
+```
+
+- range()
+```python
+list(range(10))
+list(range(0,10))
+list(range(0,10,1))
 ```
 - for loop
 ```python
-
+print('My name is')
+for i in range(5):
+    print('Jimmy Five Times (' + str(i) + ')')
 ```
 - sequence/itarable
 ```python
-
+l = ['hello','world','how','are','you']
+for item in l:
+    print(l)
 ```
-- range()
+
+## bonus
 ```python
-
+import random
+random.random()
+random.randint(1,10)
 ```
-
 ## task
 -  Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
 
