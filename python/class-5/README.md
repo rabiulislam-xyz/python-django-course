@@ -130,31 +130,3 @@ print('Access granted.')
 
 ```
 
-- range()
-```python
-list(range(10))
-list(range(0,10))
-list(range(0,10,1))
-```
-- for loop
-```python
-print('My name is')
-for i in range(5):
-    print('Jimmy Five Times (' + str(i) + ')')
-```
-- sequence/itarable
-```python
-l = ['hello','world','how','are','you']
-for item in l:
-    print(l)
-```
-
-## bonus
-```python
-import random
-random.random()
-random.randint(1,10)
-```
-## task
--  Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
-- What is the difference between break and continue?
