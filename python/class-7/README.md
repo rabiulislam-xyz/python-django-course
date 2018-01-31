@@ -62,7 +62,29 @@ robot2.name
 ```
 ## method
 ```python
+class Robot:
+  name = 'wall-e'
+  def say_hello(self):
+    return 'HI, Hello!'
+ 
+robot = Robot()
+robot.name
+'wall-e'
+robot.say_hello()
+'HI, Hello!'
 
+class Robot:
+  name = 'wall-e'
+  def say(self, somthing):
+    return str(somthing)
+ 
+robot = Robot()
+robot.name
+'wall-e'
+robot.say('bangladesh')
+'bangladesh'
+robot.say('dhaka')
+'dhaka'
 ```
 ## __init__()
 ```python
@@ -81,11 +103,29 @@ robot1.name
 robot2.name
 'eve'
 ```
-## class level variable
+## class level variable and instance level variable
 ```python
+class Robot:
+  company = 'BNL'
+  def __init__(self, name):
+    self.name = name
+ 
+robot1 = Robot('wall-e')
+robot2 = Robot('eve')
 
-```
-## instance level variable
-```python
+robot1.company
+'BNL'
+robot1.name
+'wall-e'
 
+robot2.company
+'BNL'
+robot2.name
+'eve'
+
+robot1.company is robot2.company
+
+Robot.company
+
+Robot.name
 ```
