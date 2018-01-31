@@ -41,19 +41,45 @@ except:
 ```
 ## classes
 ```python
-
+class Robot:
+  name = 'wall-e'
 ```
 ## objects
+```python
+class Robot:
+  name = 'wall-e'
+ 
+robot1 = Robot()
+robot2 = Robot()
+
+robot1 is robot2
+False
+
+robot1.name
+'wall-e'
+robot2.name
+'wall-e'
+```
+## method
 ```python
 
 ```
 ## __init__()
 ```python
+class Robot:
+  def __init__(self, name):
+    self.name = name
+ 
+robot1 = Robot('wall-e')
+robot2 = Robot('eve')
 
-```
-## method
-```python
+robot1 is robot2
+False
 
+robot1.name
+'wall-e'
+robot2.name
+'eve'
 ```
 ## class level variable
 ```python
