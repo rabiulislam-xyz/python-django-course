@@ -124,8 +124,9 @@ robot2.name
 'eve'
 
 robot1.company is robot2.company
-
+True
 Robot.company
-
+'BNL'
 Robot.name
+'AttrubuteError'.................
 ```
