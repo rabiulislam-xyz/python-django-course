@@ -7,4 +7,5 @@ codes used in python-django-course
     * [class 3](python/class-3/README.md)
     * [class 4](python/class-4/README.md)
     * [class 5](python/class-5/README.md)
-    * [class 6](python/class-6/README.md)
+    * [class 6](python/class-6/README.md)
+    * [class 7](python/class-7/README.md)
